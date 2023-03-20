@@ -1,0 +1,149 @@
+.answer-input .textarea-block {
+	border: 1px solid rgba(255,255,255,.1);
+	width: 100%;
+	height: 150px;
+	border-radius: 0 0 4px 4px;
+	font-size: .95em;
+	position: relative;
+}
+.editor-textarea {
+	background: transparent;
+    color: #8f8f91;
+	font-family: inherit;
+	border: 1px solid transparent;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	padding-right: 26%;
+}
+.editor-textarea:focus {
+	border: 1px solid rgba(255,255,255,.2);
+	outline: 0;
+}
+.rooms-form .answer-input {
+	background: transparent !important;
+	padding: 0 !important;
+}
+.answer-input {
+	height: auto;
+	width: 100%;
+	background: #26272c;
+	margin-bottom: 5px;
+	border-radius: 0px;
+	padding: 30px 25px;
+	padding-bottom: 60px;
+	position: relative;
+	border-radius: 4px;
+}
+.answer-input .input-header{
+	height: 38px;
+	width: 100%;
+	background: #2b2c31;
+	border-radius: 4px 4px 0 0;
+}
+.answer-input .input-header{
+	padding: 8px 20px;
+	border-radius: 4px 4px 0 0;
+	border: 1px solid rgba(255,255,255,.1);
+	border-bottom: 0px solid rgba(255,255,255,.1);
+	background: transparent;
+}
+.answer-input .input-header ul{
+	display: flex;
+}
+.answer-input .input-header ul li{
+	margin-right: 15px;
+	font-size: 1.25em;
+    color: #8f8f91;
+	cursor: pointer;
+	user-select: none;
+}
+.answer-input .input-header ul li img{
+	height: 18px;
+	width: 18px;
+	object-fit: contain;
+}
+.answer-input .smiles-block {
+	width: 25%;
+	margin: 0;
+	height: 150px;
+	position: absolute;
+	border-left: 1px solid rgba(255,255,255,.1);
+	top: 0;
+	right: 0;
+	padding: 10px 5px 10px 10px;
+}
+.answer-input .smiles-block ul {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.answer-input .smiles-block li {
+	margin-right: 7px;
+	height: 32px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.answer-input .textarea-btns {
+	display: flex;
+	width: 25%;
+	margin-top: 15px;
+	padding: 0 15px;
+	right: 10px;
+	top: 30px;
+	position: absolute;
+}
+.answer-input .textarea-btns .input-icon{
+	width: 27px;
+	font-size: 1.25em;
+}
+.answer-input .textarea-btns .input-icon i{
+	color: rgba(0,0,0,.5);
+}
+.answer-input .send-btn{
+	border-radius: 4px;
+	background: #2b2c31;
+    color: #8f8f91;
+	padding: 8px 12px;
+	font-size: .9em;
+	margin-top: 15px;
+    font-family: inherit;
+	cursor: pointer;
+}
+.showed-msg {
+	padding: 20px 5px;
+}
+.showed-msg div {
+	border: 1px solid transparent;
+    padding: 10px 15px;
+    min-height: 30px;
+    border-radius: 0px 6px 6px 0;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.redactor-design-win {
+	width: 100%;
+	left: 0;
+	height: 12vh;
+	position: absolute;
+	top: -12vh;
+	border: 1px solid rgba(171,205,239,.2);
+	background: rgba(26,27,32,.95);
+	border-radius: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 5%;
+}
+.redactor-design-win li {
+	margin-right: 10px !important;
+	cursor: pointer;
+	user-select: none;
+}
+.redactor-design-win .color-el {
+	margin: 2px 3px;
+    height: 28px;
+    width: 28px;
+	cursor: pointer;
+}

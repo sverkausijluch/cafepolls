@@ -1,0 +1,3 @@
+const SET_ROOMS_FORM_TAGS = "SET_ROOMS_FORM_TAGS"
+
+export default SET_ROOMS_FORM_TAGS

@@ -1,0 +1,3 @@
+const SET_NEW_POLLS_COUNT = "SET_NEW_POLLS_COUNT"
+
+export default SET_NEW_POLLS_COUNT

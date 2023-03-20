@@ -1,0 +1,3 @@
+const SET_VOICES_COUNT = "SET_VOICES_COUNT"
+
+export default SET_VOICES_COUNT

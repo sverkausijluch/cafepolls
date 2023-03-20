@@ -1,0 +1,22 @@
+function mapStateToProps(component) {
+	switch (component) {
+		case "PollsFilter": {
+			return function (state) {
+				return {
+					question: state.question
+				};
+			}
+		}
+		case "PollsQuestion": {
+			return function (state) {
+				return {
+					answers: state.answers,
+					//voices: state.voices
+				};
+			}
+		}
+		default: return undefined;
+	}
+}
+
+export default mapStateToProps;

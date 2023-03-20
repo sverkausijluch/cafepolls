@@ -1,0 +1,3 @@
+const SET_SENDED_POLLS = "SET_SENDED_POLLS"
+
+export default SET_SENDED_POLLS

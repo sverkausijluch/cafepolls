@@ -1,0 +1,3 @@
+const SET_ROOM_SECTION = "SET_ROOM_SECTION"
+
+export default SET_ROOM_SECTION

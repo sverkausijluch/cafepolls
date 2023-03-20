@@ -1,0 +1,10 @@
+import ADD_POLL from '../constants.js'
+import initialState from '../initialState.js'
+
+
+export default function poll_reducer(state=initialState.question, action) {
+    switch(action.type) {
+        case ADD_POLL: return state = action.value
+        default: return state;
+    }
+}

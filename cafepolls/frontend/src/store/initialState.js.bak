@@ -1,0 +1,8 @@
+const initialState = {
+    polls: [
+		{ id: 1, question: 'Ты любишь мороженое?' },
+		{ id: 2, question: 'Кто сидит на ветке?' },
+	],
+};
+
+export default initialState

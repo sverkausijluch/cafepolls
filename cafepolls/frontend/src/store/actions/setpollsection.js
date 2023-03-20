@@ -1,0 +1,3 @@
+const SET_POLL_SECTION = "SET_POLL_SECTION";
+
+export default SET_POLL_SECTION;

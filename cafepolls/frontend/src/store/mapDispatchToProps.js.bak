@@ -1,0 +1,15 @@
+import { bindActionCreators } from 'redux';
+import add_poll from './addpoll.js'
+
+function mapDispatchToProps(component) { 
+    switch(component) {
+        case "add_poll": return function(dispatch) {
+            return {
+				add_poll: bindActionCreators(add_poll, dispatch)
+			};
+        }
+        default: return undefined;
+    }
+}
+
+export default mapDispatchToProps
